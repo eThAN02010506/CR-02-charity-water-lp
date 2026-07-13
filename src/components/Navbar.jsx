@@ -1,4 +1,5 @@
 import React from 'react';
+import cwLogo from '../../img/cw_logo.png';
 import Button from './Button';
 
 const navItems = [
@@ -13,7 +14,7 @@ function Navbar({ isMenuOpen, onToggleMenu }) {
     <header className="sticky top-0 z-50 border-b border-brand-navy/10 bg-brand-cream/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="https://www.charitywater.org/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-semibold tracking-tight text-brand-navy" aria-label="charity water home">
-          <img src="/img/cw_logo.png" alt="charity water logo" className="h-10 w-auto" />
+          <img src={cwLogo} alt="charity water logo" className="h-10 w-auto" />
           <span className="hidden sm:inline">charity: water</span>
         </a>
 

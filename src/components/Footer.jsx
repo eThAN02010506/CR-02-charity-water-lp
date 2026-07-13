@@ -1,4 +1,5 @@
 import React from 'react';
+import cwLogo from '../../img/cw_logo.png';
 
 const footerLinks = [
   { label: 'About', href: 'https://www.charitywater.org/about' },
@@ -12,7 +13,7 @@ function Footer() {
     <footer className="bg-brand-navy px-4 py-10 text-white sm:px-6 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col gap-8 rounded-[2rem] border border-white/10 bg-white/10 px-6 py-8 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
         <a href="https://www.charitywater.org" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-          <img src="/img/cw_logo.png" alt="charity water logo" className="h-10 w-auto" />
+          <img src={cwLogo} alt="charity water logo" className="h-10 w-auto" />
           <div>
             <p className="text-lg font-semibold">charity: water</p>
             <p className="text-sm text-white/70">Clean water for everyone.</p>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import heroFamily from '../../img/Hero_family.png';
 
 const trustIndicators = [
   { label: '100% to clean water projects', icon: '⟡', href: 'https://www.charitywater.org/our-approach/100-percent-model' },
@@ -35,7 +36,7 @@ function Hero() {
       <div className="relative overflow-hidden rounded-[2rem] bg-brand-white shadow-soft">
         <div className="absolute inset-y-0 left-0 z-10 w-2/5 bg-gradient-to-r from-brand-cream via-brand-cream/80 to-transparent" aria-hidden="true" />
         <img
-          src="/img/Hero_family.png"
+          src={heroFamily}
           alt="Hero family illustration"
           className="h-full w-full object-cover"
         />
